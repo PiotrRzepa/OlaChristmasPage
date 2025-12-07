@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Merry Christmas Ola</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="sticky-header">
+    <nav>
+      <ul>
+        <li><a href="#gallery">Galeria</a></li>
+        <li><a href="#gift">Pod choinką</a></li>
+        <li><a href="#passa">Passa</a></li>
+        <li><a href="#galleryInsta">Insta</a></li>
+        <li><a href="#present">Prezent</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <header class="hero">
+    <canvas id="snow"></canvas>
+    <h1 class="title" data-aos="zoom-in" data-aos-duration="1000">Wesołych Świąt, Olu!</h1>
+    <p class="subtitle" data-aos="fade-up" data-aos-delay="500">Ta strona powstała w 100% dla ciebie, dlatego mam nadzieję, że ci się spodoba</p>
+    <button class="btn" onclick="scrollToSection()" data-aos="fade-up" data-aos-delay="1000">Przejdź dalej</button>
+  </header>
+
+  <main>
+
+    <section id="gallery" class="section gallery-style">
+      <h2 data-aos="fade-left">Świąteczna galeria</h2>
+      <div class="slideshow-container" data-aos="zoom-in" data-aos-delay="200">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 21</div>
+          <img src="img/pierwsze.jpg" alt="Ola z markiem">
+          <div class="text">Zostawię to bez komentarza.</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 21</div>
+          <img src="img/drugie.webp" alt="OLa na kupce">
+          <div class="text">Minimalny poziom skupienia potrzebny na lekcji pani Kupki</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 21</div>
+          <img src="img/trzecie.webp" alt="OLa tacoHemingway">
+          <div class="text">Beztwarzowa fanka Taco Hemingwaya, "Twoja skóra pachnie jak ostatnie dni wakacji"</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 21</div>
+          <img src="img/czwarte.webp" alt="Ola its okay">
+          <div class="text">Typowa reakcja na 3 sprawdziany w tygodniu i 5 kartkówek, "it's fine"</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 21</div>
+          <img src="img/piate.webp" alt="Ola okulary">
+          <div class="text">POLSKA MIA KHALIFA HELL YEAH!</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">6 / 21</div>
+          <img src="img/szoste.webp" alt="Ola pazy">
+          <div class="text">Damnnn najlepsze świąteczne pazy na świecieee</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">7 / 21</div>
+          <img src="img/siodme.webp" alt="Ola moje ulubione">
+          <div class="text">
+            <div class="tenor-gif-embed" data-postid="16097696" data-share-method="host" data-aspect-ratio="1.66667" data-width="40%" data-height="40%"><a href="https://tenor.com/view/lick-lickk-lilo-and-stich-gif-16097696">Lick Lickk GIF</a>from <a href="https://tenor.com/search/lick-gifs">Lick GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">8 / 21</div>
+          <img src="img/osme.webp" alt="Ola szok">
+          <div class="text">Kiedy on ma metr 90, jest czarny i starszy.</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">9 / 21</div>
+          <img src="img/dziewiate.webp" alt="Ola aniolek">
+          <div class="text">„Widziałem anioła. Stał przede mną, a świat zamilkł.” – Zstąpienie anioła w Carrefourze.</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">10 / 21</div>
+          <img src="img/dziesiate.webp" alt="Ola przed angielskim">
+          <div class="text">Przed kartkówką z angielskiego... (tragedia narodowa)</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">11 / 21</div>
+          <img src="img/jedynaste.webp" alt="Ola przed angielskim">
+          <div class="text">Książka była tak ciekawa, że Olka zasnęła... Na szczęście kot czyta.</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">12 / 21</div>
+          <img src="img/dwunaste.webp" alt="Ola przed angielskim">
+          <div class="text">Ulalala.. gorąco się zrobiło.</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">13 / 21</div>
+          <img src="img/trzynaste.webp" alt="Ola przed angielskim">
+          <div class="text">Najlepsza piżama na świecie w świątecznym klimacie</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">14 / 21</div>
+          <img src="img/czternaste.webp" alt="Ola przed angielskim">
+          <div class="text">Polska Mia Khalifa spełnia marzenie chorego chłopca i rozmawia z nim na kamerkach</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">15 / 21</div>
+          <img src="img/pietnaste.webp" style="width: 70%;" alt="OlaSneaky">
+          <div class="text">Sneaky zdjecie na angielskim</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">16 / 21</div>
+          <img src="img/szesnaste.webp" alt="OlaZaDziesiecLat">
+          <div class="text">Zdjęcie z przyszłości - 12 sierpnia 2030 rok</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">17 / 21</div>
+          <img src="img/siedemnaste.webp" alt="OlaDziesiecLat">
+          <div class="text">#essa #j***c60</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">18 / 21</div>
+          <img src="img/osiemnaste.webp" alt="Pies">
+          <div class="text">Najcudowniejszy piesek pod słońcem uchwycony na kamerze</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">19 / 21</div>
+          <img src="img/dziewiednaste.webp" alt="legitneDwa">
+          <div class="text">Ola - Bizneswoman</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">20 / 21</div>
+          <img src="img/dwudzieste.webp" alt="Olaa">
+          <div class="text"><div class="tenor-gif-embed" data-postid="16097696" data-share-method="host" data-aspect-ratio="1.66667" data-width="40%" data-height="40%"><a href="https://tenor.com/view/lick-lickk-lilo-and-stich-gif-16097696">Lick Lickk GIF</a>from <a href="https://tenor.com/search/lick-gifs">Lick GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">21 / 21</div>
+          <img src="img/dwudziestepierwsze.webp" alt="piesCenzura">
+          <div class="text">Piękna cenzura na pięknym psie</div>
+        </div>
+
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+      </div>
+    </section>
+
+    <section id="gift" class="section gift-section">
+      <h2 data-aos="fade-right">Na co zasługujemy pod choinką</h2>
+      <p data-aos="fade-up" data-aos-delay="300">
+        Uważam że pod choinką powinny się znależć takie prezenty owiniętę w kokardkę dla każdego z nas
+      </p>
+
+      <div class="gift-gallery" data-aos="fade-up" data-aos-delay="500">
+        <div class="gift-row">
+          <img src="img/MojeProfilowe.webp" alt="Prezent 1" class="circle-img">
+          <img src="img/siodme.webp" alt="Prezent 2" class="circle-img">
+        </div>
+
+        <div class="gift-row">
+          <img src="img/annieZheng.jpg" alt="Prezent 3" class="rect-img">
+          <img src="img/OlaMan.jpg" alt="Prezent 4" class="rect-img">
+        </div>
+      </div>
+    </section>
+
+    <section id="passa" class="section passa-section">
+      <h2 data-aos="fade-left">Nasza passa na TikToku</h2>
+      <p data-aos="fade-up" data-aos-delay="300">Mamy już ponad sto dni passy na TikToku! Jestem niezwykle dumny z naszego przyjaciela "Cipka", który każdego dnia płonie dla nas z z zaangażowaniem. Nie możemy pozwolić by ta passja zgasła, musimy dalej dbać o każdy dzień, aby nasza passa trwała ponad rok!</p>
+      <img src="img/fire.webp" style="width: 50%; height: auto;" alt="Ogień">
+    </section>
+
+    <section id="galleryInsta" class="section gallery-style">
+      <h2 data-aos="fade-left">Rysunki z instagrama</h2>
+      <p data-aos="fade-up" data-aos-delay="300">Nasze bazgroły z instagrama</p>
+      <div class="slideshow-container" data-aos="zoom-in" data-aos-delay="200">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 8</div>
+          <img src="img/instagramPierwsze.webp" alt="slonJeden">
+          <div class="text">Ale z ciebie trąba pospolita</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 8</div>
+          <img src="img/instagramDrugie.webp" alt="marek">
+          <div class="text">Piękny marek na krześle (inspiracja z wyglądu - lekcja historii)</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 8</div>
+          <img src="img/instagramTrzecie.webp" alt="minionek">
+          <div class="text">Przypomina kogoś z naszej klasy...</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 8</div>
+          <img src="img/instagramCzwarte.webp" alt="slonDwa">
+          <div class="text">Trąba pospolita v2.</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 8</div>
+          <img src="img/instagramPiate.webp" alt="drzewo">
+          <div class="text">Piękna polska jabłoń (starałem się jak nigdy)</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">6 / 8</div>
+          <img src="img/instagramSzoste.webp" style="width: 70%;" alt="pimpek">
+          <div class="text">Dinozaur pimpuś</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">7 / 8</div>
+          <img src="img/instagramSiodme.webp" alt="pepa">
+          <div class="text">Świnka Peppa (starałem się, okej?)</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">8 / 8</div>
+          <img src="img/instagramOsme.webp" alt="zyrafa">
+          <div class="text">Żyrafka anka</div>
+        </div>
+
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+      </div>
+
+    </section>
+
+    <section id="present" class="section present">
+      <h2 data-aos="zoom-in" style="padding-bottom: 30% ;">Tegoroczny prezent</h2>
+      <div class="present">
+    <div class="lid">
+      <span></span>
+    </div>
+    <div class="promo">
+      <p>Słodycze</p>
+      <h2>Kapcie reniferki</h2>
+    </div>
+    <div class="box">
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+    </section>
+
+    <section class="section">
+      <h2 data-aos="zoom-in">Podziękowanie</h2>
+      <p data-aos="fade-up" data-aos-delay="300">Twoja przyjaźń jest bezcenna — dziękuję, że jesteś.</p>
+      <p class="signature" data-aos="fade-up" data-aos-delay="500">— Twój mały świąteczny prezent</p>
+      <p class="signature" data-aos="fade-up" data-aos-delay="500">Autor: Piotr Rzepa</p>
+    </section>
+
+  </main>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+  <script src="script.js"></script>
+</body>
+</html>
